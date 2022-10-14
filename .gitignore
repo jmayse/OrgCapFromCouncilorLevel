@@ -5,6 +5,6 @@
 /.vs/OrgCapFromCouncilorLevel/v16
 /OrgCapFromCouncilorLevel/bin
 /OrgCapFromCouncilorLevel/obj
-/mod
+mod
 *.csproj
 /OrgCapFromCouncilorLevel/Properties
