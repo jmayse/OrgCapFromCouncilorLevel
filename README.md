@@ -1,6 +1,6 @@
-﻿Org Cap from Councilor Level
+﻿<h1>Org Cap from Councilor Level</h1>
 
-**Requires the Councilor Level mod**
+<h3>**Requires the Councilor Level mod**</h3>
 
 Changes the org cap to depend on councilor level, which increments every time you apply an augmentation.
 
@@ -15,7 +15,7 @@ NOTE: Currently, localization files (which control text output) are not able to 
 Therefore the Councilor Info window still shows administration as linked to org capacity - this will
 be fixed when 0.3.24 is live.
 
-Integration Notes:
+<h2>Integration Notes:</h2>
 
 Administration is widely used throughout the TI codebase. This unfortunately means that 
 a couple of methods had to be completely bypassed in this mod:
@@ -33,6 +33,6 @@ AIEvaluators.EvaluateOrgForCouncilor - Same as above - the AI checks the `availa
 attribute directly rather than calling an encapsulated method, so this entire method must be bypassed.
 
 
-Changelog:
+<h2>Changelog:</h2>
 
 October 14 2022 - Initial Upload
