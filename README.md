@@ -1,6 +1,6 @@
 ﻿<h1>Org Cap from Councilor Level</h1>
 
-<h3>**Requires the [Councilor Level](https://github.com/jmayse/CouncilorLevels) mod**</h3>
+**Requires the [Councilor Levels](https://github.com/jmayse/CouncilorLevels) mod**
 
 Changes the org cap to depend on councilor level, which increments every time you apply an augmentation.
 
