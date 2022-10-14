@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs/OrgCapFromCouncilorLevel/v16
+/OrgCapFromCouncilorLevel/bin/Release
+/OrgCapFromCouncilorLevel/obj/Debug
+/OrgCapFromCouncilorLevel/obj/Release
