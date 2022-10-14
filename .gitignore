@@ -3,6 +3,8 @@
 ################################################################################
 
 /.vs/OrgCapFromCouncilorLevel/v16
-/OrgCapFromCouncilorLevel/bin/Release
-/OrgCapFromCouncilorLevel/obj/Debug
-/OrgCapFromCouncilorLevel/obj/Release
+/OrgCapFromCouncilorLevel/bin/
+/OrgCapFromCouncilorLevel/obj/
+/mod/
+*.csproj
+/OrgCapFromCouncilorLevel/Properties/
