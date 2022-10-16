@@ -43,12 +43,7 @@ namespace OrgCapFromCouncilorLevel
         /// <param name="org"></param>
         static bool Prefix(TIOrgState org, TICouncilorState __instance, ref bool __result)
         {
-            // Log.Info("SufficientCapacityForOrgPatch1");
-            // Log.Info(__instance.ID.ToString() + " Level " + ExternalMethods.GetCouncilorLevel(__instance).ToString());
-            // Log.Info(__instance.ID.ToString() + " Org Weight " + __instance.orgsWeight.ToString());
-            // Log.Info(org.ID.ToString() + " Level " + org.tier.ToString());
             __result = __instance.orgs.Count < 15 && __instance.orgsWeight + org.tier <= CouncilorLevelManagerExternalMethods.GetCouncilorLevel(__instance);
-            // Log.Info("Capacity is " + __result.ToString());
             return false;
         }
     }
