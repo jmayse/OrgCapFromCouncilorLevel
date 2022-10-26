@@ -1,0 +1,13 @@
+{
+	"Id": "OrgCapFromCouncilorLevel",
+	"DisplayName": "OrgCapFromCouncilorLevel",
+	"title": "OrgCapFromCouncilorLevel",
+	"author": "Zoloft Enthusiast",
+	"description": "Organization cap dependent on councilor level",
+	"Version": "0.2.0",
+	"Requirements": ["CouncilorLevels"],
+	"ManagerVersion": "0.25.0",
+	"AssemblyName": "OrgCapFromCouncilorLevel.dll",
+	"EntryMethod": "OrgCapFromCouncilorLevel.Main.Load",
+	"mod url": "https://steampowered.com/workshop/modurl"
+}
